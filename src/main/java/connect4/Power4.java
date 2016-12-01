@@ -12,13 +12,13 @@ public class Power4 {
 
     public static void main(String[] args) {
 
-        System.out.println("Player 1 \nEnter your name: ");
+        System.out.println("Players 1 \nEnter your name: ");
         String NamePlayer1 = scanner.nextLine();
         System.out.println("--");
         System.out.println("You entered: " + NamePlayer1);
         System.out.println("\n");
 
-        System.out.println("Player 2 \n Enter your name : ");
+        System.out.println("Players 2 \n Enter your name : ");
         String NamePlayer2 = scanner2.nextLine();
         System.out.println("--");
         System.out.println("You entered: " + NamePlayer2);
