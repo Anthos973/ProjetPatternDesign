@@ -1,6 +1,7 @@
 package connect4;
 
 /**
+<<<<<<< HEAD
  * Created by Kakashi on 01/12/2016.
  */
 public class Board {
@@ -32,4 +33,9 @@ public class Board {
 
         }
     }}
+=======
+ * Created by Esra on 01/12/2016.
+ */
+public class Board {
+>>>>>>> origin/master
 }
