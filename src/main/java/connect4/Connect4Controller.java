@@ -1,36 +1,38 @@
 package connect4;
 
-import java.util.Scanner;
 
 public class Connect4Controller {
-	private Scanner scanner = new Scanner(System.in);
+  public static void main(String [] args){
 
-	public int readInt() {
-        if (scanner.hasNextInt()) {
-            return scanner.nextInt();
-        }
-        else {
-            scanner.next();
-            return -1;
-        }
+    View view = null;
+    view = new Text();
+
+
+    Player [] players = new Player[2];
+
+
+    String playerName = view.getAnswer("Entrer le nom du Joueur 1 :");
+
+      players[0] = new Player(playerName);
+
+
+    playerName = view.getAnswer("Entrer le nom du Joueur 2 :");
+
+      players[1] = new Player(playerName);
+
+    Game state = new Game(0, players);
+
+    view.display(state);
+
+    while (!state.gameIsOver()){
+      int move = state.getPlayerToMove().getMove(state, view);
+
+      state.makeMove(move);
+      view.display(state);
     }
 
-    public String read() {
-        if (scanner.hasNext()) {
-            return scanner.next();
-        }
-        else {
-            scanner.next();
-            return "no input";
-        }
-    }
 
-	public static void main(String[] args) {
-		Connect4Controller controller = new Connect4Controller();
+    view.reportToUser(state.getPlayers()[1 - state.getPlayerNum()].getName() + " a gagné!");
 
-        System.out.print("Please enter a number: ");
-		//int number = controller.readInt();
-        String number = new Scanner(System.in).next();
-		System.out.println("You entered: " + number);
-    }
+  }
 }
