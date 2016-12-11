@@ -2,21 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e0a8ab3-7b1a-4030-a54a-008b89fbdc74" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/connect4/Board.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/connect4/Players.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/connect4/Square.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/connect4/Board.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/connect4/Players.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/connect4/Power4.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/connect4/Square.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/connect4/Connect4Controller.class" afterPath="$PROJECT_DIR$/build/classes/main/connect4/Connect4Controller.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/connect4/Game.class" afterPath="$PROJECT_DIR$/build/classes/main/connect4/Game.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/connect4/Player.class" afterPath="$PROJECT_DIR$/build/classes/main/connect4/Player.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/connect4/Power4.class" afterPath="$PROJECT_DIR$/build/classes/main/connect4/Power4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/connect4/Connect4Controller.java" afterPath="$PROJECT_DIR$/src/main/java/connect4/Connect4Controller.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/connect4/Game.java" afterPath="$PROJECT_DIR$/src/main/java/connect4/Game.java" />
     </list>
     <ignored path="gradle-empty-project.iws" />
@@ -144,8 +129,8 @@
       <file leaf-file-name="PlayerTest.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/connect4/PlayerTest.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="176">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -184,8 +169,8 @@
       <file leaf-file-name="Game.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/connect4/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            <state relative-caret-position="484">
+              <caret line="139" column="31" lean-forward="false" selection-start-line="139" selection-start-column="31" selection-end-line="139" selection-end-column="31" />
               <folding>
                 <element signature="e#583#584#0" expanded="true" />
                 <element signature="e#605#606#0" expanded="true" />
@@ -616,10 +601,10 @@
         <option value="$PROJECT_DIR$/src/main/java/connect4/Power4.java" />
         <option value="$PROJECT_DIR$/src/main/java/connect4/Connect4Controller.java" />
         <option value="$PROJECT_DIR$/src/test/java/connect4/PlayerTest.groovy" />
-        <option value="$PROJECT_DIR$/src/main/java/connect4/Game.java" />
         <option value="$PROJECT_DIR$/src/main/java/connect4/State.java" />
         <option value="$PROJECT_DIR$/src/main/java/connect4/View.java" />
         <option value="$PROJECT_DIR$/src/main/java/connect4/Text.java" />
+        <option value="$PROJECT_DIR$/src/main/java/connect4/Game.java" />
       </list>
     </option>
   </component>
@@ -1283,7 +1268,7 @@
       <updated>1479979973572</updated>
       <workItem from="1480584858580" duration="46000" />
       <workItem from="1480584976555" duration="8218000" />
-      <workItem from="1481448236558" duration="2438000" />
+      <workItem from="1481448236558" duration="2567000" />
     </task>
     <servers />
   </component>
@@ -1296,7 +1281,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10702000" />
+    <option name="totallyTimeSpent" value="10831000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -1615,14 +1600,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/connect4/PlayerTest.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/connect4/Connect4Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1655,6 +1632,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/connect4/PlayerTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/connect4/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -1665,8 +1650,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/connect4/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        <state relative-caret-position="484">
+          <caret line="139" column="31" lean-forward="false" selection-start-line="139" selection-start-column="31" selection-end-line="139" selection-end-column="31" />
           <folding>
             <element signature="e#583#584#0" expanded="true" />
             <element signature="e#605#606#0" expanded="true" />

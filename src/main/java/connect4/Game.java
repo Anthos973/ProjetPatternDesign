@@ -137,10 +137,10 @@ public class Game implements State{
       // horizontale
       if ( checkForFour(latestRow, latestCol - offset, 0, 1)) return true;
 
-      // diagonale du bas vers la droite
+      // diagonale du bas droit
       if ( checkForFour(latestRow - offset, latestCol + offset, 1, -1)) return true;
 
-      // diagonale du haut vers la droite
+      // diagonale du haut droit
       if ( checkForFour(latestRow - offset, latestCol - offset, 1, 1)) return true;
     }
 
